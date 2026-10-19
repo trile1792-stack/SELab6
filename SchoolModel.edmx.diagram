@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="10f3225ee6004d71b0354b4e4d06e794" Name="Diagram1">
+        <EntityTypeShape EntityType="SchoolDBModel.Courses" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolDBModel.Departments" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolDBModel.Enrollments" Width="1.5" PointX="5.25" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolDBModel.Instructors" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolDBModel.Students" Width="1.5" PointX="3" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolDBModel.tblCourses" Width="1.5" PointX="5.25" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolDBModel.tblDepartments" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolDBModel.tblInstructors" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolDBModel.tblStudents" Width="1.5" PointX="7.5" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolDBModel.tblUsers" Width="1.5" PointX="5.75" PointY="7.75" IsExpanded="true" />
+        <AssociationConnector Association="SchoolDBModel.FK__Courses__Departm__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolDBModel.FK__Enrollmen__Cours__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolDBModel.FK__Enrollmen__Stude__534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolDBModel.FK_Courses_Instructors" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolDBModel.FK_Instructors_Departments" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolDBModel.tblStudentCourses" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
